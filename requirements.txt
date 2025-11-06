@@ -1,0 +1,4 @@
+spacy>=3.5
+pypdf>=3.8
+tqdm
+python-dotenv
