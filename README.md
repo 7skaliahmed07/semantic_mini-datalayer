@@ -16,21 +16,21 @@ A lightweight, end-to-end text processing pipeline. This project ingests `.txt` 
 semantic_mini-datalayer/
 ├── README.md
 ├── requirements.txt
-├── main.py                 # Entry point for the pipeline
-├── venv/                   # Python virtual environment
+├── main.py                 
+├── venv/                   
 │
-├── connectors/             # Future connectors (e.g., APIs, DBs)
+├── connectors/             
 │
 ├── processing/
-│   ├── file_utils.py       # list_files(), extract_texts()
-│   ├── nlp_utils.py        # extract_entities() using spaCy
+│   ├── file_utils.py       
+│   ├── nlp_utils.py        
 │   └── __init__.py
 │
-├── sample_data/            # Example input text files
+├── sample_data/            
 │   ├── sample1.txt
 │   └── sample2.txt
 │
-└── output/                 # Structured results (JSON) after processing
+└── output/                 
 ```
 
 ---
